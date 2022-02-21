@@ -4,7 +4,7 @@ The goal of the **C++ modules 00 to 08** is to introduce the student to Object-O
 Because of the complexity of the language, the students code has to comply with the C++98 standard.  
 From Module 02 to Module 08, the classes must be designed in the Orthodox Canonical Form, except when explicitely stated otherwise.
 
-**C++ module 02** introduces the learner to fundamental concepts like ad-hoc polymorphism, operator overloading and the Orthodox Canonical class form. Further, the idea of fixed-point numbers are introduced and compared with integers and floating point numbers.
+**C++ module 02** introduces the learner to fundamental concepts like ad-hoc polymorphism, operator overloading and the Orthodox Canonical class form. Further, the idea of fixed-point numbers is introduced and compared with integers and floating point numbers.
 
 ## Description
 
