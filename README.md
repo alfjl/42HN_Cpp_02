@@ -36,6 +36,6 @@ The most important of them all and my bible for the next 8 projects:
 * [Understanding & using floating point numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point.html)
 * [Floating point number representation](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_representation.html)
 * [Printing floating point numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_printing.html)
-* [IEEE 754](https://www.youtube.com/watch?v=RuKkePyo9zk)
+* [IEEE 754 video](https://www.youtube.com/watch?v=RuKkePyo9zk)
 * [Introduction to fixed-point numbers](https://inst.eecs.berkeley.edu//~cs61c/sp06/handout/fixedpt.html)
 * [Fixed-point number video](https://www.youtube.com/watch?v=QFlbvSeBkwY)
