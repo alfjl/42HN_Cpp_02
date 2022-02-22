@@ -3,6 +3,7 @@
 
 const int   Fixed::_nbrOfFractionalBits = 8;
 
+
 // constructor & destructor
 Fixed::Fixed( void ) : _value(0)
 {
@@ -128,6 +129,34 @@ Fixed   Fixed::operator/(Fixed const &other) const
 {
     Fixed   temp(this->toFloat() / other.toFloat());
 
+    return (temp);
+}
+
+Fixed   Fixed::operator++( void )
+{
+    this->_value++;
+    return (*this);
+}
+
+Fixed   Fixed::operator++( int )
+{
+    Fixed   temp(*this);
+
+    this->_value++;
+    return (temp);
+}
+
+Fixed   Fixed::operator--( void )
+{
+    this->_value--;
+    return (*this);
+}
+
+Fixed   Fixed::operator--( int )
+{
+    Fixed   temp(*this);
+
+    this->_value--;
     return (temp);
 }
 

@@ -15,6 +15,7 @@ public:
     Fixed( Fixed const &src);
     ~Fixed( void );
 
+    // assignment operator
     Fixed           &operator=(Fixed const &src);
     
     // comparison operators
@@ -30,6 +31,10 @@ public:
     Fixed               operator-(Fixed const &other) const;
     Fixed               operator*(Fixed const &other) const;
     Fixed               operator/(Fixed const &other) const;
+    Fixed               operator++( void );
+    Fixed               operator++( int );
+    Fixed               operator--( void );
+    Fixed               operator--( int );
 
     // getter & setter
     int                 getRawBits( void ) const;
