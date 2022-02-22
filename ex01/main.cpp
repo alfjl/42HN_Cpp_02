@@ -20,5 +20,17 @@ int main( void )
     std::cout << "c is " << c.toInt() << " as integer" << std::endl;
     std::cout << "d is " << d.toInt() << " as integer" << std::endl;
 
+
+    std::cout << "############# OWN TEST #############" << std::endl;
+    Fixed   y( -3 );
+    Fixed   z( -123.456f );
+
+    std::cout << "y is " << y << std::endl;
+    std::cout << "z is " << z << std::endl;
+
+    y = z;
+    std::cout << "y is " << y << std::endl;
+    std::cout << "z is " << z << std::endl;
+
     return 0;
 }
