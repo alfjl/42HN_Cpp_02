@@ -31,7 +31,6 @@ A great time to really concern myself with how integers and floating-point numbe
 
 ### Resources
 
-The most important of them all and my bible for the next 8 projects:
 * [cplusplus.com](http://www.cplusplus.com/)
 * [Understanding & using floating point numbers](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point.html)
 * [Floating point number representation](https://www.cprogramming.com/tutorial/floating_point/understanding_floating_point_representation.html)
