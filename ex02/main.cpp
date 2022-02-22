@@ -10,11 +10,15 @@ int main( void )
 
     
     std::cout << a << std::endl;
-    std::cout << ++a << std::endl;
+    //std::cout << ++a << std::endl;
+    std::cout << --a << std::endl; // own test
     std::cout << a << std::endl;
-    std::cout << a++ << std::endl;
+    //std::cout << a++ << std::endl;
+    std::cout << a-- << std::endl; // own test
     std::cout << a << std::endl;
 
+    //for (int i = 0; i < 2; i++) // own test
+        //std::cout << --a << std::endl; // own test
 
     std::cout << b << std::endl;
     
